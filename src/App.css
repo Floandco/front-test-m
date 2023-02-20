@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* HEADER  */
+.Header {
+  background-color: blue;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  flex-direction: row;
+
+}
+
+.box-for-logo {
+  display: flex;
+}
+.logoMarvel {
+  height: 45px;
+  border-radius: 4px;
+}
+.navbar {
+  background-color: aquamarine;
+  display: flex;
+  /* align-items: flex-end; */
+  flex-wrap: wrap;
+  gap: 200px;
+}  
+
+
+/* HOME PAGE - CHARACTERS */
+.characters {
+  display: flex;
+}  
+.container-characters {
+  background-color: rgb(243, 255, 196);
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+
 }
 
-.App-link {
-  color: #61dafb;
+
+
+/* COMICS */
+.container-comics {
+  background-color: bisque;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+/* FAVORITES */
+
+
+
